@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Máy tính</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+
+<h2>Máy tính cộng trừ</h2>
+
+<form action="CalculatorServlet" method="post">
+
+    <label>Số A:</label>
+    <input type="number" name="a" required>
+    <br><br>
+
+    <label>Số B:</label>
+    <input type="number" name="b" required>
+    <br><br>
+
+    <label>Phép toán:</label>
+    <select name="op">
+        <option value="+">Cộng</option>
+        <option value="-">Trừ</option>
+    </select>
+    <br><br>
+
+    <button type="submit">Tính</button>
+
+</form>
+
+</body>
+</html>

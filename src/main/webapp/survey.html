@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Khảo sát sở thích</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+
+        <h2>Khảo sát sở thích</h2>
+
+        <form action="SurveyServlet" method="post">
+
+            <label>Tên:</label>
+            <input type="text" name="name" required>
+
+            <br><br>
+
+            <label>Sở thích:</label>
+
+            <br>
+
+            <input type="checkbox" name="hobby" value="Game">
+            Game
+
+            <br>
+
+            <input type="checkbox" name="hobby" value="Music">
+            Music
+
+            <br>
+
+            <input type="checkbox" name="hobby" value="Sport">
+            Sport
+
+            <br><br>
+
+            <button type="submit">Gửi khảo sát</button>
+
+        </form>
+
+    </body>
+</html>
